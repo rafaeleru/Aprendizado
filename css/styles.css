@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(236, 236, 236);
+    padding: 20px;
+}
+h1 {
+    color:rgb(121, 94, 25);
+    font-family: times new roman;
+    font-style: oblique;
+    margin-bottom: 6px;
+    text-align: center;
+    font-size: 44px;
+}
+#subtitle  {
+    color:#bcd8f0;
+    background-color: #666;
+    font-family: 'Courier New', Courier, monospace;
+    width: 296px;
+    margin: 0 auto;
+    font-size: 14px;
+    }
+h2 {
+    color:rgb(98, 13, 13)
+}
+/* Box Model */
+;a {
+    width: 200;
+    height: 100;
+    border: #333;
+}
+/* Novos campos */
+.novo {
+    color: #a54d4d;
+    background-color: rgb(118, 181, 171);
+    width: 92%;
+    margin-left: 22px;
+    padding: 12px;
+}
+.Extra {
+    background-color: #afabab;
+    padding: 12px;
+}
+.Política {
+    background-color: bisque;
+    padding: 12px;
+}
