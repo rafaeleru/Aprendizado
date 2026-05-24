@@ -1,7 +1,9 @@
 body {
     background-color: rgb(236, 236, 236);
-    padding: 20px;
+    padding: auto;
+    margin: auto;
 }
+
 h1 {
     color:rgb(121, 94, 25);
     font-family: times new roman;
@@ -10,36 +12,73 @@ h1 {
     text-align: center;
     font-size: 44px;
 }
-#subtitle  {
+
+#subtitle {
     color:#bcd8f0;
     background-color: #666;
     font-family: 'Courier New', Courier, monospace;
     width: 296px;
     margin: 0 auto;
     font-size: 14px;
-    }
-h2 {
-    color:rgb(98, 13, 13)
 }
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 22px;
+}
+
+a{
+    color:#333;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #666;
+}
+
+a:hover{
+    color:#a54d4d;
+}
+
 /* Box Model */
 ;a {
-    width: 200;
-    height: 100;
+    width: 20px;
+    height: 10px;
     border: #333;
 }
+
+h2 {
+    color:rgb(98, 13, 13);
+    padding: 12px;
+    display: block;
+    margin-left: 24px;
+}
+
+section{ 
+    display: flex;
+    justify-content: space-between;
+    padding: 9px 18vh;
+    align-items:first baseline;
+    gap: 24px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img{
+    max-width:auto;
+    height: 288px;
+}
+
 /* Novos campos */
 .novo {
     color: #a54d4d;
     background-color: rgb(118, 181, 171);
-    width: 92%;
-    margin-left: 22px;
     padding: 12px;
 }
-.Extra {
-    background-color: #afabab;
-    padding: 12px;
-}
-.Política {
+
+.newsection{
     background-color: bisque;
-    padding: 12px;
 }
